@@ -141,6 +141,23 @@ class HomeController extends Controller
 
     }
 
+    public function latest_new($slung)
+    {
+        SEOTools::setTitle('Latest News | Apex Engineering Limited | Best Engineering Firm In Somalia');
+        SEOTools::setDescription('Latest News | Apex Engineering Ltd is an independent firm of designers, architects, planners, engineers, environmental specialists offering professional services. ');
+        SEOTools::opengraph()->setUrl('https://www.apexengltd.com/latest-news');
+        SEOTools::setCanonical('https://www.apexengltd.com/latest-news');
+        SEOTools::opengraph()->addProperty('type', 'articles');
+        SEOTools::twitter()->setSite('@apexengineering');
+        SEOTools::jsonLd()->addImage('https://www.apexengltd.com/theme/images/logo-2.png');
+        $Blogs = DB::table('blogs')->where('slung',$slung)->paginate(12);
+        $page_title = "Apex Engineering Limited News";
+        return view('front.latest-new',compact('Blogs','page_title'));
+
+    }
+
+    
+
     public function terms_and_conditions()
     {
         SEOTools::setTitle('Terms and Conditions | Apex Engineering Limited | Best Engineering Firm In Somalia');

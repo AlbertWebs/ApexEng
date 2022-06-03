@@ -10,7 +10,7 @@
 	<meta name="keywords" content="Apex Engineering, URBAN PLANNING GEOSPATIAL SERVICES ARCHITECTURAL ENVIRONMENTAL MANAGEMENT INFRASTRUCTURE MANAGEMENT LAND SURVEYING BRIDGE DESIGNING
 	& REHABILITATION" />
 	<meta name="author" content="Designekta Studios" />
-	
+
 	<meta name="format-detection" content="telephone=no">
     <!--Meta SEO-->
 	{!! SEO::generate() !!}
@@ -21,7 +21,7 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 	<link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	
+
 	<!-- STYLESHEETS -->
 	<link rel="stylesheet" type="text/css" href="{{asset('theme/css/plugins.min.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{asset('theme/plugins/fontawesome/css/font-awesome.min.css')}}">
@@ -35,7 +35,7 @@
 	<style>
 	@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap');
 	</style>
-	
+
 	<!-- REVOLUTION SLIDER CSS -->
 	<link rel="stylesheet" type="text/css" href="{{asset('theme/plugins/revolution/revolution/css/revolution.min.css')}}">
 
@@ -43,7 +43,7 @@
 	<!--Start of Tawk.to Script-->
 
 	 {!! html_entity_decode($Settings->tawkTo, ENT_QUOTES, 'UTF-8') !!}
-	
+
 	<!--End of Tawk.to Script-->
 	{{--  --}}
 </head>
@@ -85,40 +85,40 @@
                     <div class="logo-header d-md-block d-lg-none">
                         <a href="{{url('/')}}"><img src="{{asset('theme/images/logo-2.png')}}" alt="{{$Settings->sitename}}"></a>
                     </div>
-                    <ul class="nav navbar-nav">	
+                    <ul class="nav navbar-nav">
                         <li>
                             <a href="{{url('/')}}">Home <i style="font-size: 18px;" class="la la-home"></i> </a>
-                            
+
                         </li>
                         <li>
                             <a href="{{url('/')}}/about-us">About Us <i style="font-size: 18px;" class="la la-info"></i> </a>
-                            
+
                         </li>
                         <li>
                             <a href="{{url('/')}}/the-company">The Company </a>
-                            
+
                         </li>
                         <li>
                             <a href="{{url('/')}}/portfolios">Our Projects</a>
-                            
+
                         </li>
-                        
+
 
                         <li>
                             <a href="{{url('/')}}/services">Services </a>
-                            
+
                         </li>
 
                         <li>
                             <a href="{{url('/')}}/latest-news">Latest News </a>
-                            
+
                         </li>
-                    
+
                         <li>
                             <a href="{{url('/')}}/contact-us">Contact Us &nbsp; <i style="font-size: 18px;" class="la la-phone"></i></a>
-                            
+
                         </li>
-                    </ul>	
+                    </ul>
                     <div class="dlab-social-icon">
                         <ul>
                             <li><a class="site-button facebook sharp-sm outline fa fa-facebook" href="javascript:void(0);"></a></li>
@@ -126,7 +126,7 @@
                             <li><a class="site-button linkedin sharp-sm outline fa fa-linkedin" href="javascript:void(0);"></a></li>
                             <li><a class="site-button instagram sharp-sm outline fa fa-instagram" href="javascript:void(0);"></a></li>
                         </ul>
-                    </div>	
+                    </div>
                 </div>
             </div>
         </div>
@@ -170,7 +170,7 @@
 						<div class="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
 							<div class="icon-content">
 								<h5 class="dlab-tilte">
-									<span class="icon-sm"><i class="ti-location-pin"></i></span> 
+									<span class="icon-sm"><i class="ti-location-pin"></i></span>
 									Company Address
 								</h5>
 								<p class="op7"> demo address #8901 Marmora Road Chi Minh City, Somalia</p>
@@ -181,7 +181,7 @@
 						<div class="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
 							<div class="icon-content">
 								<h5 class="dlab-tilte">
-									<span class="icon-sm"><i class="ti-email"></i></span> 
+									<span class="icon-sm"><i class="ti-email"></i></span>
 									E-mail
 								</h5>
 								<p class="m-b0 op7">info@apexengltd.com</p>
@@ -193,7 +193,7 @@
 						<div class="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
 							<div class="icon-content">
 								<h5 class="dlab-tilte">
-									<span class="icon-sm"><i class="ti-mobile"></i></span> 
+									<span class="icon-sm"><i class="ti-mobile"></i></span>
 									Phone Numbers
 								</h5>
 								<p class="m-b0 op7">Mobile : +00 234 678 9012</p>
@@ -205,7 +205,7 @@
 						<div class="icon-bx-wraper bx-style-1 p-a20 radius-sm br-col-w1">
 							<div class="icon-content">
 								<h5 class="dlab-tilte">
-									<span class="icon-sm"><i class="ti-alarm-clock"></i></span> 
+									<span class="icon-sm"><i class="ti-alarm-clock"></i></span>
 									Office Hours
 								</h5>
 								<p class="m-b0 op7">Mon To Sat - 08.00-18.00</p>
@@ -257,7 +257,7 @@
 								<li><a href="{{url('/')}}/terms-and-conditions">Terms & Conditions</a></li>
 								<li><a href="{{url('/')}}/copyright">Copyright</a></li>
 								<li><a href="{{url('/')}}/privacy-policy">Privacy Policy</a></li>
-                            </ul>							
+                            </ul>
                         </div>
 						<div class="widget">
                             <h4 class="footer-title mb-2">Newsletter</h4>
@@ -270,7 +270,7 @@
 										<input name="user_email" required="required" class="form-control radius-no" placeholder="Your Email Address" type="email">
 										<span class="input-group-btn">
 											<button name="submit" value="Submit" type="submit" class="site-button radius-no">SEND</button>
-										</span> 
+										</span>
 									</div>
 									<br>
 									{{-- Capture --}}
@@ -290,27 +290,26 @@
 								<?php $Blogs = DB::table('blogs')->orderBy('id','DESC')->limit('3')->get(); ?>
 								@foreach($Blogs as $blog)
 								<div class="widget-post clearfix">
-									<div class="dlab-post-media"> 
-										<img src="{{url('/')}}/uploads/blogs/{{$blog->image_one}}" width="200" height="143" alt="{{$Settings->sitename}}"> 
+									<div class="dlab-post-media">
+										<img src="{{url('/')}}/uploads/blogs/{{$blog->image_one}}" width="200" height="143" alt="{{$Settings->sitename}}">
 									</div>
 									<div class="dlab-post-info">
 										<div class="dlab-post-meta">
-											<?php 
-                                                    $RawDate = $blog->created_at;
-                                                    $FormatDate = strtotime($RawDate);
-                                                    $Month = date('M',$FormatDate);
-                                                    $Date = date('D',$FormatDate);
-                                                    $date = date('d',$FormatDate);
-                                                    $Year = date('Y',$FormatDate);
-                                                ?>
-                                              
+											<?php
+                                                $RawDate = $blog->created_at;
+                                                $FormatDate = strtotime($RawDate);
+                                                $Month = date('M',$FormatDate);
+                                                $Date = date('D',$FormatDate);
+                                                $date = date('d',$FormatDate);
+                                                $Year = date('Y',$FormatDate);
+                                            ?>
 											<ul>
 												<li class="post-date"> <strong>{{$date}} {{$Month}}</strong> </li>
-												<li class="post-author"> By <a href="javascript:void(0);">{{$blog->author}} </a> </li>
+												<li class="post-author"> By <a href="#">{{$blog->author}} </a> </li>
 											</ul>
 										</div>
 										<div class="dlab-post-header">
-											<h6 class="post-title"><a href="{{$blog->link}}">{{$blog->title}}</a></h6>
+											<h6 class="post-title"><a href="{{url('/')}}/latest-news/{{$blog->slung}}">{{$blog->title}}</a></h6>
 										</div>
 									</div>
 								</div>
@@ -352,7 +351,7 @@
  <script>
 	jQuery(document).ready(function() {
 	   'use strict';
-	   dz_rev_slider_4();	
+	   dz_rev_slider_4();
 	   $('.lazy').Lazy();
 	});	/*ready*/
  </script>

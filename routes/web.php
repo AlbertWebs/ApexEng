@@ -28,6 +28,7 @@ Route::get('/terms-and-conditions', [HomeController::class, 'terms_and_condition
 Route::get('/privacy-policy', [HomeController::class, 'privacy_policy'])->name('privacy-policy');
 Route::get('/copyright', [HomeController::class, 'copyright'])->name('copyright');
 Route::post('/news-letters', [HomeController::class, 'news_letters'])->name('news-letters');
+Route::get('/latest-news/{slung}', [HomeController::class, 'latest_new'])->name('latest-new');
 
 Auth::routes();
 

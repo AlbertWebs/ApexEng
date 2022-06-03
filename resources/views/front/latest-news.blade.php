@@ -47,7 +47,7 @@
                                         </ul>
                                     </div>
                                     <div class="dlab-post-header">
-                                        <h6 class="post-title"><a href="{{$blog->link}}">{{$blog->title}}</a></h6>
+                                        <h6 class="post-title"><a href="{{url('/')}}/latest-news/{{$blog->slung}}">{{$blog->title}}</a></h6>
                                     </div>
                                 </div>
                             
