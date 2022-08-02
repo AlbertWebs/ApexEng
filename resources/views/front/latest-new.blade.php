@@ -29,7 +29,7 @@
             </div>
             <div class="dlab-post-text">
                 <p>{!! html_entity_decode($blog->content, ENT_QUOTES, 'UTF-8') !!}</p>
-                <blockquote>{!! html_entity_decode($blog->meta, ENT_QUOTES, 'UTF-8') !!}</blockquote>
+                {{-- <blockquote>{!! html_entity_decode($blog->meta, ENT_QUOTES, 'UTF-8') !!}</blockquote> --}}
             </div>
         </div>
         <!-- blog END -->

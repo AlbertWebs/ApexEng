@@ -27,12 +27,12 @@
                         @foreach($Blogs as $blog)
                         <div class="post card-container col-lg-4 col-md-6 col-sm-12">
                             <div class="blog-post blog-grid blog-rounded blog-effect1">
-                                <div class="dlab-post-media"> 
-                                    <img src="{{url('/')}}/uploads/blogs/{{$blog->image_one}}" width="200" height="143" alt=""> 
+                                <div class="dlab-post-media">
+                                    <img src="{{url('/')}}/uploads/blogs/{{$blog->image_one}}" width="200" height="143" alt="">
                                 </div>
                                 <div class="dlab-post-info  p-a20 border-1">
                                     <div class="dlab-post-meta">
-                                        <?php 
+                                        <?php
                                                 $RawDate = $blog->created_at;
                                                 $FormatDate = strtotime($RawDate);
                                                 $Month = date('M',$FormatDate);
@@ -40,7 +40,7 @@
                                                 $date = date('d',$FormatDate);
                                                 $Year = date('Y',$FormatDate);
                                             ?>
-                                          
+
                                         <ul>
                                             <li class="post-date"> <strong>{{$date}} {{$Month}}</strong> </li>
                                             <li class="post-author"> By <a href="javascript:void(0);">{{$blog->author}} </a> </li>
@@ -50,7 +50,7 @@
                                         <h6 class="post-title"><a href="{{url('/')}}/latest-news/{{$blog->slung}}">{{$blog->title}}</a></h6>
                                     </div>
                                 </div>
-                            
+
                             </div>
                         </div>
                         @endforeach

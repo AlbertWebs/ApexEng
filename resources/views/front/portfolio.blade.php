@@ -8,10 +8,10 @@
 			<div class="container">
 				<div class="dlab-bnr-inr-entry">
 
-					<h1 class="text-white"> 
+					<h1 class="text-white">
 						{{$item->title}}
 					</h1>
-					
+
 					<!-- Breadcrumb row -->
 					<div class="breadcrumb-row">
 						<ul class="list-inline">
@@ -25,7 +25,7 @@
 			</div>
 		</div>
 		<!-- inner page banner END -->
-		
+
 		<div class="content-block">
 				  <!-- Portfolio Details -->
 		<div class="section-full content-inner bg-white">
@@ -67,14 +67,14 @@
 								</div>
 							</div>
 						</div>
-						
+
 					</div>
 					<div class="col-lg-6">
 						<div class="row">
                             @if($item->video == null or $item->video == "0")
 								@if($item->image_one == null or $item->image_one == 0)
 
-								@else 
+								@else
 								<div class="col-lg-12 m-b30">
 									<img alt="" src="{{url('/')}}/uploads/casestudies/{{$item->image_one}}">
 								</div>
@@ -87,28 +87,28 @@
 										<div class="overlay-bx">
 											<div class="overlay-icon">
 												<div class="text-white">
-													<a href="{{$item->video}}" class="popup-youtube video play-btn"><i class="fa fa-play icon-bx-xs"></i></a> 
+													<a href="{{$item->video}}" class="popup-youtube video play-btn"><i class="fa fa-play icon-bx-xs"></i></a>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 								{{-- Showreel --}}
-								
+
 							@endif
-						
-							
-							
+
+
+
 							@if($item->image_two == null or $item->image_two == 0)
 
-							@else 
+							@else
 							<div class="col-lg-6 col-md-6 col-sm-6 m-b30">
 								<img style="min-height:192px !important" alt="" src="{{url('/')}}/uploads/casestudies/{{$item->image_two}}">
 							</div>
 							@endif
 							@if($item->image_three == null or $item->image_three == 0)
 
-							@else 
+							@else
 							<div class="col-lg-6 col-md-6 col-sm-6 m-b30">
 								<img style="min-height:192px !important" alt="" src="{{url('/')}}/uploads/casestudies/{{$item->image_three}}">
 							</div>
@@ -117,7 +117,7 @@
 
 							@if($item->image_four == null or $item->image_four == 0)
 
-							@else 
+							@else
 							<div class="col-lg-6 col-md-6 col-sm-6 m-b30">
 								<img style="min-height:192px !important" alt="" src="{{url('/')}}/uploads/casestudies/{{$item->image_four}}">
 							</div>
@@ -125,14 +125,14 @@
 
 							@if($item->image_five == null or $item->image_five == 0)
 
-							@else 
+							@else
 							<div class="col-lg-6 col-md-6 col-sm-6 m-b30">
 								<img style="min-height:192px !important" alt="" src="{{url('/')}}/uploads/casestudies/{{$item->image_five}}">
 							</div>
 							@endif
 							{{--  --}}
 
-							
+
 						</div>
 					</div>
 				</div>
@@ -174,9 +174,9 @@
 								<div class="dlab-media dlab-img-overlay1 dlab-img-effect">
 									<img src="{{url('/')}}/uploads/gallery/{{$Gallery->image}}"  alt="" width="800" height="650"/>
 									<div class="overlay-bx">
-										<div class="overlay-icon"> 
-											<span data-exthumbimage="{{url('/')}}/uploads/gallery/{{$Gallery->image}}" data-src="{{url('/')}}/uploads/gallery/{{$Gallery->image}}" class="check-km" title="Apex Engineering Limited Somalia">		
-												<i class="ti-zoom-in icon-bx-xs"></i> 
+										<div class="overlay-icon">
+											<span data-exthumbimage="{{url('/')}}/uploads/gallery/{{$Gallery->image}}" data-src="{{url('/')}}/uploads/gallery/{{$Gallery->image}}" class="check-km" title="Apex Engineering Limited Somalia">
+												<i class="ti-zoom-in icon-bx-xs"></i>
 											</span>
 										</div>
 									</div>
