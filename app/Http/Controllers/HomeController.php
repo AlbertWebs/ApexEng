@@ -88,15 +88,15 @@ class HomeController extends Controller
             SEOTools::jsonLd()->addImage('https://www.apexengltd.com/theme/images/logo-2.png');
             $Content = DB::table('categories')->get();
             $page_title = $title;
-            
+
             return view('front.service',compact('Categories','page_title'));
         }
     }
     public function portfolios()
     {
         $Cases = DB::table('cases')->get();
-     
-       
+
+
             SEOTools::setTitle('Our Portfolio | Apex Engineering Limited | Best Engineering Firm In Somalia');
             SEOTools::setDescription('Apex Engineering Ltd Projects');
             SEOTools::opengraph()->setUrl('https://www.apexengltd.com/portfolio');
@@ -106,7 +106,7 @@ class HomeController extends Controller
             SEOTools::jsonLd()->addImage('https://www.apexengltd.com/theme/images/logo-2.png');
             $page_title = "Our Portfolio Apex Engineering Limited";
             return view('front.portfolios',compact('Cases','page_title'));
-        
+
     }
     public function portfolios_single($slung)
     {
@@ -124,7 +124,7 @@ class HomeController extends Controller
             $page_title = $title;
             return view('front.portfolio',compact('Portfolio','page_title'));
         }
-        
+
     }
     public function latest_news()
     {
@@ -156,7 +156,7 @@ class HomeController extends Controller
 
     }
 
-    
+
 
     public function terms_and_conditions()
     {
@@ -197,16 +197,19 @@ class HomeController extends Controller
         $page_title = "Apex Engineering Limited";
         return view('front.copyright',compact('Copyright','page_title'));
     }
-    
+
 
     public function news_letters(Request $request)
-    {   
+    {
             if ( ! Newsletter::isSubscribed($request->user_email) ) {
                 Newsletter::subscribe($request->user_email);
             }
+
+
+
     }
 
 
-    
-    
+
+
 }
