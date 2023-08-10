@@ -30,6 +30,7 @@ Route::get('/copyright', [HomeController::class, 'copyright'])->name('copyright'
 Route::post('/news-letters', [HomeController::class, 'news_letters'])->name('news-letters');
 Route::get('/latest-news/{slung}', [HomeController::class, 'latest_new'])->name('latest-new');
 
+
 Auth::routes();
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
