@@ -10,6 +10,12 @@
 	<meta name="keywords" content="Apex Engineering, URBAN PLANNING GEOSPATIAL SERVICES ARCHITECTURAL ENVIRONMENTAL MANAGEMENT INFRASTRUCTURE MANAGEMENT LAND SURVEYING BRIDGE DESIGNING
 	& REHABILITATION" />
 	<meta name="author" content="Designekta Studios" />
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow"><!-- Google Specific -->
+    <meta name="subject" content="Apex Engineering Limited | Best Engineering Firm In Somalia">
+    <meta name="rating" content="General">
+    <meta name="referrer" content="no-referrer">
+    <meta name="theme-color" content="#d2151e">
 
 	<meta name="format-detection" content="telephone=no">
     <!--Meta SEO-->
